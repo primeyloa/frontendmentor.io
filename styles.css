@@ -1,25 +1,29 @@
+@import url("https://googleapis.com");
+
 body {
-    background: #D5E1EF;
+  background: #d5e1ef;
 }
+
 .attribution {
-    margin-top: 10px;
-    font-size: 0.6875rem;
-    text-align: center;
+  margin-top: 10px;
+  font-size: 0.6875rem;
+  text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
 
 .qrcode {
+    margin-left: 16px;
+    margin-right: 16px;
     border-radius: 20px;
-    margin-left:16px;
-    margin-top: 16px;
     width: 288px;
     height: 288px;
-}
+    }
 
 .card {
+    padding-top: 16px;
     border-radius: 20px;
     align-items: center;
     background-color: #ffffff;
@@ -30,21 +34,21 @@ body {
 }
 
 .text {
-    padding-left: 16px;
-    padding-right: 16px;
     text-align: center;
+    margin:16px;
 }
 .text .big {
+    font-weight: bold; 
+    font-family: "Outfit Bold", sans-serif;
     font-size: 22px;
-    color: #1F314F;
+    color: #1f314f;
     line-height: 120%;
     letter-spacing: 0px;
 }
-
 .text .small {
-    /* font-family: ; */
+    font-family:'Outfit Regular', sans-serif ;
     font-size: 15px;
-    color: #68778D;
+    color: #68778d;
     line-height: 140%;
     letter-spacing: 0.2px;
 }
